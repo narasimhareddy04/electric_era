@@ -1,0 +1,19 @@
+﻿[Stations]
+1 101 102 103
+2 201 202
+3 301
+
+
+[Charger Availability Reports]
+101 0 1000 true
+101 1000 2000 false
+102 0 1500 true
+102 1500 3000 true
+103 0 500 false
+103 500 2500 true
+201 0 2000 true
+201 2000 4000 false
+202 1000 3000 true
+202 3000 4000 false
+301 500 1500 true
+301 1500 2500 true
