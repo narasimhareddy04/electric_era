@@ -53,7 +53,8 @@ public class Main {
             boolean readingReports = false;
 
             while ((line = br.readLine()) != null) {
-                line = line.trim();
+//                line = line.trim();
+                line = line.replaceAll("[^\\x20-\\x7E]", "").trim();
                 if (line.isEmpty()) continue;
 
                 // Skip section headers
